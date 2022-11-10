@@ -1,3 +1,29 @@
-html {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template: 15vh 85vh / 18vw 82vw;
   background-color: #6861d3;
+}
+
+#sidebar {
+  background-color: #d361cd;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#header {
+  background-color: #6192d3;
+}
+
+#main-content {
+  background-color: #8961d3;
 }
