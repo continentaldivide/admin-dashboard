@@ -14,15 +14,29 @@ body {
   background-color: #6861d3;
 }
 
+/* Sidebar and descendants */
+
 #sidebar {
   background-color: #d361cd;
   grid-row-start: 1;
   grid-row-end: 3;
 }
 
+#navigation {
+  display: grid;
+  grid-template: 50px / 30px 100px;
+  grid-auto-rows: 50px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+/* Header and descendants */
+
 #header {
   background-color: #6192d3;
 }
+
+/* Main-content and descendants */
 
 #main-content {
   background-color: #8961d3;
