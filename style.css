@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 *,
 *::before,
 *::after {
@@ -6,6 +8,8 @@
 
 * {
   margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
 }
 
 body {
