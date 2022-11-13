@@ -48,6 +48,10 @@ body {
 
 #header {
   background-color: #6192d3;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: 40% 60% / 60% 40%;
 }
 
 /* Main-content and descendants */
