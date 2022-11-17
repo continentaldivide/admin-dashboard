@@ -75,6 +75,20 @@ nav {
   border-radius: 15px;
 }
 
+#greeting {
+  display: flex;
+  gap: 10px;
+}
+
+#greeting p {
+  
+  font-weight: bold;
+}
+
+#greeting h2 {
+  font-weight: bold;
+}
+
 /* Main-content and descendants */
 
 #main-content {
