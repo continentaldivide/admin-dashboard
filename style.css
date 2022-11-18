@@ -54,7 +54,7 @@ nav {
   display: grid;
   padding-left: 5%;
   padding-right: 5%;
-  grid-template: 50% 50% / 55% 35%;
+  grid-template: 50% 50% / 65% 35%;
   z-index: 2;
 }
 
@@ -75,13 +75,20 @@ nav {
   border-radius: 15px;
 }
 
+#top-right-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 #greeting {
   display: flex;
   gap: 10px;
 }
 
 #greeting p {
-  
   font-weight: bold;
 }
 
