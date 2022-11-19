@@ -96,6 +96,25 @@ nav {
   font-weight: bold;
 }
 
+#top-right-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#top-right-buttons button {
+  background-color: #155e75;
+  color: white;
+  min-width: 100px;
+  min-height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  font-size: large;
+}
+
 /* Main-content and descendants */
 
 #main-content {
