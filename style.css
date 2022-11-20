@@ -114,6 +114,9 @@ nav {
   border-radius: 20px;
   font-size: large;
 }
+#top-right-buttons button:hover {
+background-color: #164e63;
+}
 
 /* Main-content and descendants */
 
