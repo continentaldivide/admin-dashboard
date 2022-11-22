@@ -78,9 +78,8 @@ nav {
 #top-right-nav {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   gap: 30px;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 #greeting {
@@ -114,8 +113,17 @@ nav {
   border-radius: 20px;
   font-size: large;
 }
+
 #top-right-buttons button:hover {
-background-color: #164e63;
+  background-color: #164e63;
+}
+
+#header img {
+  max-height: 80%;
+}
+
+#top-right-nav img:nth-child(2) {
+  max-height: 70%;
 }
 
 /* Main-content and descendants */
