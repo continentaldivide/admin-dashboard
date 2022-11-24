@@ -148,6 +148,7 @@ nav {
 }
 
 .project-tile {
-  background-color: lightblue;
-  border: 1px solid red;
+  background-image: linear-gradient(to right, #164e63 2%, #cffafe 2%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
