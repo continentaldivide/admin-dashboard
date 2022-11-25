@@ -148,7 +148,22 @@ nav {
 }
 
 .project-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-image: linear-gradient(to right, #164e63 2%, #cffafe 2%);
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 30px 30px 30px 30px;
+}
+
+.tile-text p:first-child {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.tile-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
 }
