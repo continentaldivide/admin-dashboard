@@ -132,17 +132,21 @@ nav {
   background-color: #0891b2;
   z-index: 1;
   padding: 30px 1px 1px 25px;
+  display: grid;
+  grid-template: 50% 50% / 80% 20%;
 }
 
 #projects {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 #tiles-grid {
   display: grid;
-  grid-template: 200px / 450px 450px;
+  grid-template: 200px / 350px 350px;
   grid-auto-rows: 200px;
   gap: 40px;
 }
@@ -166,4 +170,12 @@ nav {
   display: flex;
   justify-content: flex-end;
   gap: 20px;
+}
+
+#announcements {
+  background-color: pink;
+}
+
+#trending {
+  background-color: purple;
 }
