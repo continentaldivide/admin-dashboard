@@ -131,7 +131,7 @@ nav {
 #main-content {
   background-color: #0891b2;
   z-index: 1;
-  padding: 30px 1px 1px 25px;
+  padding-left: 25px;
   display: grid;
   grid-template: 50% 50% / 80% 20%;
 }
@@ -142,6 +142,7 @@ nav {
   gap: 10px;
   grid-row-start: 1;
   grid-row-end: 3;
+  padding-top: 30px;
 }
 
 #tiles-grid {
@@ -173,9 +174,31 @@ nav {
 }
 
 #announcements {
-  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+#announcement-pane {
+  background-color: #cffafe;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
 }
 
 #trending {
-  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+#trending-pane {
+  background-color: #cffafe;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
 }
