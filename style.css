@@ -212,4 +212,13 @@ nav {
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   margin-right: 20px;
+  display: grid;
+  grid-template: 25% / 100%;
+  padding: 20px;
+}
+
+.trending-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
